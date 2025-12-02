@@ -125,6 +125,17 @@ To install and set up PostgreSQL, follow these steps:
    GRANT CREATE ON DATABASE my_database TO root;
    ```
 
+8. ** check the table: **
+
+```
+\dt
+
+and then
+
+select * from item;
+```
+
+
 ## Running the Application
 
 Once the environment and database are set up, you can run the application with the following steps:
